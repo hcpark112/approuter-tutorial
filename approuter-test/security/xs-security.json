@@ -1,0 +1,30 @@
+{
+    "xsappname": "approuter-i856367",
+    "scopes": [
+        {
+            "name": "$XSAPPNAME.Display",
+            "description": "Display Advertisements"
+        },
+        {
+            "name": "$XSAPPNAME.Update",
+            "description": "Update Advertisements"
+        }
+    ],
+    "role-templates": [
+        {
+            "name": "Viewer",
+            "description": "View Advertisements",
+            "scope-references": [
+                "$XSAPPNAME.Display"
+            ]
+        },
+        {
+            "name": "Advertiser",
+            "description": "Maintain Advertisements",
+            "scope-references": [
+                "$XSAPPNAME.Display",
+                "$XSAPPNAME.Update"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+---
+applications:
+- name: approuter-test-i856367
+  host: approuter-test-i856367
+  memory: 128M
+  services:
+    - uaa-approuter-cc-sap-i856367

@@ -1,0 +1,16 @@
+{
+    "welcomeFile": "index.html",
+    "routes": [
+        {
+            "source": "^/api",
+            "target": "/api",
+            "destination": "approuter-test-destination"
+        },
+        {
+            "source": "^/html",
+            "target": "/html",
+            "destination": "approuter-test-destination",
+            "scope": "$XSAPPNAME.Display"
+        }
+    ]
+}
