@@ -1,12 +1,16 @@
-# approuter
+# Orca Approuter
 
 [![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
-Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.
+Orca approuter acts as a single entry point for BOC application and all the BOC micro-services sit behind this. It is built on [SAP XS2 Application Router](https://github.wdf.sap.corp/xs2/approuter.js) and supports OAuth authentication and use JWT token to propagate user context when talking to all BOC services and BOC HANA service. It will leverage the service registry to guide the routing. With plug-in extension, it can also connect to the external system to support remote connectivity in BOC. 
 
-  - Type some Markdown on the left
-  - See HTML in the right
-  - Magic
+The approuter has three main functions:
+
+- Handle authentication for all apps of the application
+- Serve static resources
+- Perform route mapping (URL mapping)
+
+
 
 # New Features!
 
