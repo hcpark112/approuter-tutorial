@@ -8,9 +8,6 @@ The approuter has three main functions:
 - Serve static resources
 - Perform route mapping (URL mapping)
 
-The diagram below describes the architecture of the PoC.
-![](doc/BOC_CF_POC_Architecture.png)
-
 ## Prerequisite
 
 Ensure that Node.JS including its NPM Packager Manager is installed:
