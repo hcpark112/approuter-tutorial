@@ -1,14 +1,14 @@
 ---
 applications:
-- name: approuter-i856367
-  host: approuter-i856367
+- name: approuter
+  host: approuter-i856367-2
   buildpack: nodejs_buildpack
   memory: 128M
   env:
     destinations: >
       [
         {"name":"approuter-test-destination", 
-         "url":"https://approuter-test-i856367.cfapps.sap.hana.ondemand.com",
+         "url":"https://approuter-test-i856367-2.cfapps.sap.hana.ondemand.com",
          "forwardAuthToken": true}
       ]
   services:
